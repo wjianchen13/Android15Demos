@@ -1,12 +1,17 @@
 package com.example.android15demo;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.android15demo.test1.TestActivity1;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +25,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onTest1(View v) {
+        Intent intent = new Intent(this, TestActivity1.class);
+        startActivity(intent);
     }
 }
