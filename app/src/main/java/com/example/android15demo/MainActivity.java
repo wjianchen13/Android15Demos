@@ -11,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.android15demo.test1.TestActivity1;
+import com.example.android15demo.test2.TestActivity2;
+import com.example.android15demo.test3.TestActivity3;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -31,4 +33,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TestActivity1.class);
         startActivity(intent);
     }
+
+    public void onTest2(View v) {
+        Intent intent = new Intent(this, TestActivity2.class);
+        startActivity(intent);
+    }
+
+    public void onTest3(View v) {
+        Intent intent = new Intent(this, TestActivity3.class);
+        startActivity(intent);
+    }
+
 }

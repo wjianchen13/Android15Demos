@@ -35,6 +35,15 @@
             android:exported="false"
             android:windowSoftInputMode="adjustPan">
         </activity>
+        <activity
+            android:name=".test2.TestActivity2"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"  >
+        </activity>
+        <activity
+            android:name=".test3.TestActivity3"
+            android:windowSoftInputMode="adjustResize"  >
+        </activity>
+
     </application>
 
 </manifest>

@@ -24,4 +24,22 @@
         android:textAllCaps="false"
         android:onClick="onTest1"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="测试软键盘弹起的情况"
+        android:textAllCaps="false"
+        android:onClick="onTest2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="测试软键盘弹起的情况"
+        android:textAllCaps="false"
+        android:onClick="onTest3"/>
+
 </LinearLayout>
